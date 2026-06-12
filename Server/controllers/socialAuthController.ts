@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import zernio from "../../Server/config/zernio.js";
+import zernio from "../config/zernio.js";
 import { User } from "../models/User.js";
 import { Account } from "../models/Account.js";
 import { AuthRequest } from "../middlewares/authMiddlewware.js";

@@ -2,7 +2,7 @@ import { Response } from "express";
 import { AuthRequest } from "../middlewares/authMiddlewware.js";
 import { GoogleGenAI } from "@google/genai";
 import axios from "axios";
-import { cloudinary } from "../../Server/config/cloudinary.js";
+import { cloudinary } from "../config/cloudinary.js";
 import { Generation } from "../models/Generation.js";
 import { Post } from "../models/Post.js";
 
