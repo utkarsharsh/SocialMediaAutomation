@@ -8,7 +8,9 @@ import accountRouter from "../Server/routes/accountRoutes.js";
 import postRouter from "../Server/routes/postRoutes.js";
 import activityRouter from "../Server/routes/activityRoutes.js";
 import { initScheduler } from "../Server/services/schedulerService.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 const app = express();
 
 // Database connection
